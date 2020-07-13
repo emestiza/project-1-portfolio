@@ -36,7 +36,7 @@ Below are links to wireframes that show the site blueprint for three different d
 
 Here is a full list of features that have been [prioritized](https://res.cloudinary.com/dssciwyew/image/upload/v1594484749/Time%20Matrix.png) based on the `Time and Priority` Matix.   
 
-Based on the matrix data it will take about 16 hours to complete the project.
+Based on the matrix data it will take about 32 hours to complete the project.
 
 
 ### MVP/PostMVP
@@ -69,23 +69,25 @@ Based on the initial logic defined in the previous sections, the logic is broken
 | --- | :---: |  :---: | :---: | :---: |
 | Sections and grid| H | 2hrs | -hr | -hr|
 | Sections and flex| H | 2hrs | -hr | -hr|
-| Desktop Nav | H | 1hr | -hr | -hr|
-| Tablet Nav | H | 1hr | -hr | -hr|
-| Mobile Nav | H | 1hr | -hr | -hr|
+| Desktop Navigation | H | 1hr | -hr | -hr|
+| Tablet Navigation | H | 1hr | -hr | -hr|
+| Mobile Navigation | H | 1hr | -hr | -hr|
 | Desktop Responsive Design | H | 1hr | -hr | -hr|
 | Tablet Responsive Design | H | 1hr | -hr | -hr|
 | Mobile Responsive Design | H | 1hr | -hr | -hr|
 | Hamburger Icon | H | 2hrs | -hr | -hr|
 | Working with API | H | 2hrs| -hr | -hr |
 | Adding Form | H | 2hrs| -hr | -hr |
-| Total | H | 16hrs| -hrs | -hrs |
+| Testing | M | 8hrs| -hr | -hr |
+| Deployment | M | 8hrs| -hr | -hr |
+| Total |  | 32hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Other sections and flex| M | 1hr | -hr | -hr|
+| Other sections| M | 5hr | -hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 2hrs| -hrs | -hrs |
+| Total |  | 6hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
