@@ -67,8 +67,8 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Sections and grid| H | 2hrs | -hr | -hr|
-| Sections and flex| H | 2hrs | -hr | -hr|
+| Sections and Grid| H | 2hrs | -hr | -hr|
+| Sections and Flex-box| H | 2hrs | -hr | -hr|
 | Desktop Navigation | H | 1hr | -hr | -hr|
 | Tablet Navigation | H | 1hr | -hr | -hr|
 | Mobile Navigation | H | 1hr | -hr | -hr|
@@ -76,7 +76,7 @@ Based on the initial logic defined in the previous sections, the logic is broken
 | Tablet Responsive Design | H | 1hr | -hr | -hr|
 | Mobile Responsive Design | H | 1hr | -hr | -hr|
 | Hamburger Icon | H | 2hrs | -hr | -hr|
-| Working with API | H | 2hrs| -hr | -hr |
+| Data API | H | 2hrs| -hr | -hr |
 | Adding Form | H | 2hrs| -hr | -hr |
 | Testing | M | 8hrs| -hr | -hr |
 | Deployment | M | 8hrs| -hr | -hr |
@@ -85,7 +85,7 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Other sections| M | 5hr | -hr | -hr|
+| Other Sections| M | 5hr | -hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
 | Total |  | 6hrs| -hrs | -hrs |
 
