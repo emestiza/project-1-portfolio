@@ -1,112 +1,112 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 1 Project - Build a portfolio site
+# Project Overview
 
-#### Overview
+## Project Schedule
 
-This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in SEIR. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
-
-Make sure to customize the design and content of the website to make it your own.
-
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
-
----
-
-#### Requirements
-
-Your work must:
-
-- Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID to create a multi-column layout.
-- Use Flexbox for content.
-- Must be mobile mobile first, then tablet and desktop responsive.
-- Must pull in projects via API call from google sheet. 
-- Be deployed and accessible online either via Github Pages or Surge. 
----
-
-#### Necessary Deliverables
-
-- An About, Projects, Contact form (Google)
-- Site must be created using a "mobile first" approach. 
-- A Git repository, hosted on your personal GitHub, that includes a link to your hosted site. Site URL should be in the form of githubusername.github.io. 
-- Repo must contain frequent commits (min 15+) dating back to the beginning of the project.
-- An updated project workshheet will all sections filled out accordingly. 
-- An in-class demo of the site that shows off the interactions you worked on.
-- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
-
-## Portfolio Samples
-
-Check out portfoliios that look awesome and emulate the parts that speak to you. Here are some that we like but you should google around and find stuff you're into.
-
- - [denisechandler.com](http://www.denisechandler.com/)
- 
- - [mattfarely.ca](http://mattfarley.ca/)
-
- - [sebkay.com](http://sebkay.com/)
- 
- ### Previous SEI Students
-
- - [helloaileen.com](http://helloaileen.com)
- 
- - [eloise-ress-barrow.surge.sh/](http://eloise-ress-barrow.surge.sh/)
-
- - [lianapenn.com](https://www.lianapenn.com/)
- 
- - [robertdiscipio.surge.sh/](http://robertdiscipio.surge.sh/)
- 
- - [andrewhollingworth.com/](http://andrewhollingworth.com/)
- 
- - [jessicalandzberg.github.io/](https://jessicalandzberg.github.io/Unit_1_Project/#myJourney0)
- 
- - [ga profiles](https://dietoself86.github.io/project-1-portfolio/)
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches | Incomplete
+|Day 6| Present | Incomplete
 
 
-### Finding Good Portfolio Sites To Emulate - 10 min
+## Project Description
 
-Search and compare at least 3 profile web sites. Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site. 
-
-Link To Site  | One Thing I'd Like To Incorporate | Initial Research On That Item
-| ------------- | ------------- | ------------- |
-| [http://www.denisechandler.com/](http://www.denisechandler.com/)| initial animation\drawing on page load
-|[jkeohan.com](jkeohan.com) | mouseover on a project triggers animations |
-| [http://mattfarley.ca/](http://mattfarley.ca/) |  layout of the projects
-
-#### Starter Code
-
-No starter code has been provided for this project, as you will be building your site from scratch. As an option, you can use the [HTML5 Boilerplate](https://html5boilerplate.com/) as a template to get started.
-
----
-#### Suggested Ways to Get Started
-
-- Don't hesitate to write throwaway code to solve short-term problems.
-- Read the documentation for whatever technologies you use. **Most of the time — but not always — there is a tutorial you can follow, and learning to read documentation is crucial to your success as a developer.**
-- **Write pseudocode before you write any JavaScript code.** Planning out and thinking through interactions for a website is an important step that will save you time and effort when you start actually coding.
-- Do not simply copy and paste code that you find online! It is OK (and highly encouraged) to use resources like Stack Overflow when thinking through interactions, but use these sites as a guide and then write the code on your own.
-
-#### Front End Frameworks
-Try exploring these front end frameworks:
-
-- [https://materializecss.com/](https://materializecss.com/)
-- [https://getbootstrap.com/](https://getbootstrap.com/)
-
----
-#### Hungry For More?
-If you're looking for an extra challenge, try tackling some of the tasks below:
-
-* Add validation to the contact form to make sure the user has filled out all required fields before submitting.
-* Add a skills section featuring skills you have/will have learned in the class.
-* Add a carousel 
-
----
-
-#### Additional Resources
-- Joe's [FEWD Trello Board](https://trello.com/b/yqrvugBk/lectures)
-- Joe's YouTube 3 Part Sereis on [jQuery Top Nav Animation On Scroll](https://www.youtube.com/watch?v=mRsF-a3qFZE&t=176s)
+The goal of this project is to build a portfolio site that highlights the skills and projects I'll be working on in GA. I will use HTML and CSS to style and format the site. I will use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
 
 
-#### Need More Review?
-- HTML/CSS
-	- [Practice CSS Selectors with CSS Diner](https://flukeout.github.io/)
-	- [Flexbox Froggy](http://flexboxfroggy.com/)
+## Google Sheet
 
-- JavaScript
-	- [JavaScript Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
----
+Link to Google sheet with projects [here](https://docs.google.com/spreadsheets/d/1A-BPvETOegMvze6amsGrhtmqROJjC3dzMqY2djCe__Q/edit#gid=0).
+
+
+## Wireframes
+
+Below are links to wireframes that show the site blueprint for three different display sizes. 
+
+- [Mobile](https://res.cloudinary.com/dssciwyew/image/upload/v1594431798/Mobile.png)
+- [Tablet](https://res.cloudinary.com/dssciwyew/image/upload/v1594431799/Tablet.png)
+- [Desktop](https://res.cloudinary.com/dssciwyew/image/upload/v1594431799/Desktop.png)
+
+
+## Time/Priority Matrix 
+
+Here is a full list of features that have been [prioritized](https://res.cloudinary.com/dssciwyew/image/upload/v1594484749/Time%20Matrix.png) based on the `Time and Priority` Matix.   
+
+Based on the matrix data it will take about 16 hours to complete the project.
+
+
+### MVP/PostMVP
+
+The functionality will then be divided into two separate lists: MPV and PostMVP. The MVP list includes functionality that will be implemented upon project completion.  
+
+#### MVP
+
+- Create and setup HTML, CSS, and JavaScript files
+- Create CSS GRID containers to create a multi-column layout
+- Create CSS flex-box containers
+- Add images, icons, and content
+- Create responsive design
+- Create hamburger menu icon
+- Pull in projects via API call from google sheet
+- Deploy online via Github Pages
+
+#### PostMVP 
+
+- Add additional project links
+- Add social media icons/links
+
+
+## Functional Components
+
+Based on the initial logic defined in the previous sections, the logic is broken down further into functional components.
+
+#### MVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Sections and grid| H | 2hrs | -hr | -hr|
+| Sections and flex| H | 2hrs | -hr | -hr|
+| Desktop Nav | H | 1hr | -hr | -hr|
+| Tablet Nav | H | 1hr | -hr | -hr|
+| Mobile Nav | H | 1hr | -hr | -hr|
+| Desktop Responsive Design | H | 1hr | -hr | -hr|
+| Tablet Responsive Design | H | 1hr | -hr | -hr|
+| Mobile Responsive Design | H | 1hr | -hr | -hr|
+| Hamburger Icon | H | 2hrs | -hr | -hr|
+| Working with API | H | 2hrs| -hr | -hr |
+| Adding Form | H | 2hrs| -hr | -hr |
+| Total | H | 16hrs| -hrs | -hrs |
+
+#### PostMVP
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Other sections and flex| M | 1hr | -hr | -hr|
+| Social Media Icons | L | 1hr | -hr | -hr|
+| Total | H | 2hrs| -hrs | -hrs |
+
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project. 
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
+
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
+
+## Previous Project Worksheet
+ - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
+ - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)

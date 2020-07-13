@@ -1,0 +1,177 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+  
+main, .header, .grid-container1 {
+    max-width: 999px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+/* Header */
+.header {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* Dashed line */
+.grid-container1 {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: repeat(50, auto);
+    padding: 0px;
+}
+  
+.grey { 
+    background-color: grey;
+    color: grey;
+    padding: 0px;
+    font-size: 5px;
+    text-align: center;
+}
+
+/* Letters */
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 99px;
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 55px;
+}
+
+/* Letter E */
+.e {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "e1 e2 e2"
+      "e1 . ."
+      "e1 e3 e3"
+      "e1 . ."
+      "e1 e4 e4";
+}
+
+.e1 {
+    grid-area: e1;
+    background-color: orange;
+    color: orange;
+}
+.e2 {
+    grid-area: e2;
+    background-color: orange;
+    color: orange;
+}
+.e3 {
+    grid-area: e3;
+    background-color: orange;
+    color: orange;
+}
+.e4 {
+    grid-area: e4;
+    background-color: orange;
+    color: orange;
+}
+
+/* Letter R */
+.r {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "r1 r2 r3"
+      "r1 . r3"
+      "r1 . ."
+      "r1 . ."
+      "r1 . .";
+}
+
+.r1 {
+    grid-area: r1;
+    background-color: red;
+    color: red;
+}
+.r2 {
+    grid-area: r2;
+    background-color: red;
+    color: red;
+}
+.r3 {
+    grid-area: r3;
+    background-color: red;
+    color: red;
+}
+
+/* Letter I */
+.i {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "i1"
+      "."
+      "i2"
+      "i2"
+      "i2";
+}
+
+.i1 {
+    grid-area: i1;
+    background-color: green;
+    color: green;
+}
+.i2 {
+    grid-area: i2;
+    background-color: green;
+    color: green;
+}
+
+/* Letter C */
+.c {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+      "c1 c2 c2"
+      "c1 . ."
+      "c1 . ."
+      "c1 . ."
+      "c1 c3 c3";
+}
+
+.c1 {
+    grid-area: c1;
+    background-color: blue;
+    color: blue;
+}
+.c2 {
+    grid-area: c2;
+    background-color: blue;
+    color: blue;
+}
+.c3 {
+    grid-area: c3;
+    background-color: blue;
+    color: blue;
+}
+
+
+/* Responsive design for display size */
+@media only screen and (max-width: 700px) {
+    main, .letters {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-row-gap: 55px;
+    }
+}
