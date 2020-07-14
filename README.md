@@ -6,7 +6,7 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -36,7 +36,7 @@ Below are links to wireframes that show the site blueprint for three different d
 
 Here is a full list of features that have been [prioritized](https://res.cloudinary.com/dssciwyew/image/upload/v1594484749/Time%20Matrix.png) based on the `Time and Priority` Matix.   
 
-Based on the matrix data it will take about 32 hours to complete the project.
+Based on the matrix data it will take 40 hours to complete the project.
 
 
 ### MVP/PostMVP
@@ -67,8 +67,8 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Sections and Grid| H | 2hrs | -hr | -hr|
-| Sections and Flex-box| H | 2hrs | -hr | -hr|
+| Sections with Grid| H | 2hrs | -hr | -hr|
+| Sections with Flex-box| H | 2hrs | -hr | -hr|
 | Desktop Navigation | H | 1hr | -hr | -hr|
 | Tablet Navigation | H | 1hr | -hr | -hr|
 | Mobile Navigation | H | 1hr | -hr | -hr|
@@ -77,10 +77,11 @@ Based on the initial logic defined in the previous sections, the logic is broken
 | Mobile Responsive Design | H | 1hr | -hr | -hr|
 | Hamburger Icon | H | 2hrs | -hr | -hr|
 | Data API | H | 2hrs| -hr | -hr |
-| Adding Form | H | 2hrs| -hr | -hr |
-| Testing | M | 8hrs| -hr | -hr |
+| Adding Google Form | H | 2hrs| -hr | -hr |
+| Debugging & Testing | M | 8hrs| -hr | -hr |
+| Final Touches | M | 8hrs| -hr | -hr |
 | Deployment | M | 8hrs| -hr | -hr |
-| Total |  | 32hrs| -hrs | -hrs |
+| Total |  | 40hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
