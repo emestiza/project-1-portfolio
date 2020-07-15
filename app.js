@@ -32,27 +32,27 @@ const app = (data) => {
     
     data.forEach(project => {
         const $projectDiv = createProjectElement(project)
-        $('.item-5').append($projectDiv)  
+        $('.main1').append($projectDiv)  
     })
 }
 
 // Hamburger
 $( document ).ready(function() {
 
-$( ".cross" ).hide();
-$( ".item-3" ).hide();
+// $( ".cross" ).hide();
+// $( ".nav" ).hide();
 $( ".hamburger" ).click(function() {
-$( ".item-3" ).slideToggle( "slow", function() {
+$( ".nav" ).slideToggle( "slow", function() {
 $( ".hamburger" ).hide();
 $( ".cross" ).show();
 });
 });
 
-$( ".cross" ).click(function() {
-$( ".item-3" ).slideToggle( "slow", function() {
-$( ".cross" ).hide();
-$( ".hamburger" ).show();
-});
-});
+// $( ".cross" ).click(function() {
+// $( ".nav" ).slideToggle( "slow", function() {
+// $( ".cross" ).hide();
+// $( ".hamburger" ).show();
+// });
+// });
 
 });

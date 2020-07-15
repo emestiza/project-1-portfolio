@@ -1,10 +1,10 @@
 body {
     font-family: "Times New Roman", Times, serif;
     -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
   }
   
-  .container {
+main {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -19,20 +19,20 @@ body {
       "sec3 sec3 sec3"
       "main3 main3 main3"
       "footer footer footer";
-  }
+}
   
-  .item-1 {
+.banner {
     grid-area: banner;
     background: url("https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg") center center no-repeat;
-      background-size: cover;
-  }
+    background-size: cover;
+}
   
-  .item-1 h1 {
+.banner h1 {
     color: rgb(138, 43, 226);
     font-weight: bold;
   }
   
-  .item-2 {
+.header {
     grid-area: header;
     background: rgb(0, 0, 0);
     color: rgb(138, 43, 226);
@@ -41,91 +41,91 @@ body {
     font-size: 80px;
   }
   
-  .item-2 header {
+.header header {
     overflow: auto;
   }
   
-  .item-3 {
+.nav {
     grid-area: nav;
     background: rgb(138, 43, 226);
   }
     
-  .item-3 ul li {
+.nav ul li {
     display: inline;
   }
       
-  .item-3 a {
+.nav a {
     display: inline-block;
     color: black;
     font-weight: bold;
     text-decoration: none;
   }
       
-  .item-3 a:hover {
+.nav a:hover {
     background: white;
   }
   
-  .item-4 {
+.sec1 {
     grid-area: sec1;
     background-color: purple;
     text-align: center;
   }
   
-  .item-5 {
+.main1 {
     grid-area: main1;
   }
   
-  .container > .item-5 {
+main > .main1 {
       background: #aaa;
       display: flex;
       flex-wrap: wrap;
   }
   
-  .container > .item-5 > .project {
+main > .main1 > .project {
       flex-grow: 1;
       width: 33.33%;
   }
   
-  .container > .item-5 > .project:nth-child(even) {
+main > .main1 > .project:nth-child(even) {
       background: #23a;
   }
   
-  .container > .item-5 > .project:nth-child(odd) {
+main > .main1 > .project:nth-child(odd) {
       background: #49b;
   }
    
-  img {
+img {
     max-width: 100%;
     height: auto;
   }
   
-  img:hover {
+img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
   
-  .item-6 {
+.sec2 {
     grid-area: sec2;
     background-color: purple;
     text-align: center;
   }
   
-  .item-7 {
+.main2 {
     grid-area: main2;
     background-color: yellow;
   }
   
-  .item-8 {
+.sec3 {
     grid-area: sec3;
     background-color: purple;
     text-align: center;
   }
   
-  .item-9 {
+.main3 {
     grid-area: main3;
     background-color: yellow;
   }
   
-  .item-10 {
+.footer {
     grid-area: footer;
     background: black;
     color: rgb(138, 43, 226);
@@ -134,29 +134,27 @@ body {
   }
   
   /* Responsive Design */
+  
   @media (max-width: 800px) {
     
-    /* Hamburger */
     .hamburger {
       background: none;
       top: auto;
       right: auto;
-    /*   line-height: 45px; */
-    /*   padding: 5px 15px 0px 15px; */
+      line-height: 45px;
       color: #999;
       border: 0;
       font-size: 1.4em;
       font-weight: bold;
       cursor: pointer;
       outline: none;
-    /*   z-index: 10000000000000; */
+      z-index: 10000000000000;
     }
   
     .cross {
       background: none;
       top: 0px;
       right: auto;
-    /*   padding: 7px 15px 0px 15px; */
       color: #999;
       border: 0;
       font-size: 3em;
@@ -164,10 +162,10 @@ body {
       font-weight: bold;
       cursor: pointer;
       outline: none;
-    /*   z-index: 10000000000000; */
+      z-index: 10000000000000;
     }
   
-    .item-3 {
+    .nav {
       grid-area: nav;
       background: #f1f1f1;
       z-index: 1000000; 
@@ -178,48 +176,46 @@ body {
       font-size: 12px;
     }
   
-    .item-3 ul {
+    .nav ul {
       margin: 0; 
       padding: 0; 
       list-style-type: none; 
       list-style-image: none;
     }
   
-    .item-3 li {
+    .nav li {
       display: block;   
       padding: 15px 0 15px 0; 
     }
   
-    .item-3 li:hover {
+    .nav li:hover {
       display: block;    
       background: #ffffff; 
       padding: 15px 0 15px 0; 
     }
   
-    .item-3 ul li a {
-    /*   display: inline;
-      display: inline-block; */
+    .nav ul li a {
       text-decoration: none;  
       margin: 0px; 
       color: #666;
     }
   
-    .item-3 ul li a:hover {
+    .nav ul li a:hover {
       color: #666; 
       text-decoration: none;
     }
   
-    .item-3 a {
+    .nav a {
       text-decoration: none; 
       color: #666;
     }
   
-    .item-3 a:hover {
+    .nav a:hover {
       text-decoration: none; 
       color: #666;
     }  
     
-    .container > .item-3 > ul > a:before {
+    main > .nav > ul > a:before {
       content:'\2630';
       font-size: 24px;
     }  
