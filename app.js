@@ -23,7 +23,7 @@ const app = (data) => {
 
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass("project")
-        $div.append($('<h2>').text(project.title))
+        $div.append($('<h3>').text(project.title))
         $div.append($('<img>').attr('src', project.image))
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<a>').attr('href', project.url).text("Project Link"))

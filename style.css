@@ -35,9 +35,7 @@ main {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 60px;
-    border-bottom: 1px solid;
-    box-shadow: 5px 10px;
-    padding: 10px;
+    /* border-bottom: 1px solid; */
   }
   
 .header header {
@@ -47,7 +45,7 @@ main {
 .nav {
     grid-area: nav;
     background: #fafafa;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
   }
     
 .nav ul li {
@@ -62,7 +60,8 @@ main {
   }
       
 .nav a:hover {
-    background: yellow;
+    background: #1a73e8;
+    color: #fafafa;
   }
 
   .hamburger{
@@ -82,9 +81,11 @@ main {
   }
   
 main > .main1 {
-      background: #aaa;
+      background: #fafafa;
       display: flex;
       flex-wrap: wrap;
+      /* justify-items: center; */
+      /* align-items: center; */
   }
   
 main > .main1 > .project {
@@ -194,7 +195,8 @@ img {
   
     .nav li:hover {
       display: block;    
-      background: yellow;
+      background: #1a73e8;
+      color: #fafafa;
     }
   
     .nav ul li a {
