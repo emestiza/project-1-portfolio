@@ -35,10 +35,10 @@ main {
 .header {
     grid-area: header;
     background: #fafafa;
-    /* color: black; */
+    color: black;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 60px;
     border-bottom: 1px solid;
     box-shadow: 5px 10px;
     padding: 10px;
@@ -50,7 +50,8 @@ main {
   
 .nav {
     grid-area: nav;
-    background: rgb(138, 43, 226);
+    background: #fafafa;
+    border-bottom: 1px solid;
   }
     
 .nav ul li {
@@ -65,7 +66,7 @@ main {
   }
       
 .nav a:hover {
-    background: white;
+    background: yellow;
   }
 
   .hamburger{
@@ -75,11 +76,9 @@ main {
 .sec1 {
     grid-area: sec1;
     background: #fafafa;
-    /* color: #fafafa; */
+    color: black;
     text-align: center;
     border-bottom: 1px solid;
-    box-shadow: 5px 10px;
-    padding: 10px;
   }
   
 .main1 {
@@ -117,11 +116,9 @@ img:hover {
 .sec2 {
     grid-area: sec2;
     background: #fafafa;
-    /* color: #fafafa; */
+    color: black;
     text-align: center;
     border-bottom: 1px solid;
-    box-shadow: 5px 10px;
-    padding: 10px;
   }
   
 .main2 {
@@ -132,11 +129,9 @@ img:hover {
 .sec3 {
     grid-area: sec3;
     background: #fafafa;
-    /* color: #fafafa; */
+    color: black;
     text-align: center;
     border-bottom: 1px solid;
-    box-shadow: 5px 10px;
-    padding: 10px;
   }
   
 .main3 {
@@ -148,14 +143,12 @@ img:hover {
 .footer {
     grid-area: footer;
     background: #fafafa;
-    /* color: #fafafa; */
+    color: black;
     font-weight: bold;
-    padding: 4px;
     border-top: 1px solid;
   }
   
   /* Responsive Design */
-  
   @media (max-width: 760px) {
 
     .responsive-menu{
@@ -165,28 +158,26 @@ img:hover {
      .expand {
       display: grid;
       grid-template-columns: min-content;
-      grid-template-rows: auto;
       justify-content: center;
      }
     
     .hamburger {
       display: block;
       background: none;
+      color: black;
       top: auto;
       right: auto;
       line-height: 45px;
-      color: #999;
       border: 0;
-      font-size: 1.4em;
+      font-size: 1.5em;
       font-weight: bold;
       cursor: pointer;
       outline: none;
-      z-index: 10000000000000;
     }
   
     .nav {
       grid-area: nav;
-      background: #f1f1f1;
+      background: #fafafa;
       z-index: 1000000; 
       font-weight: bold; 
       font-size: 0.8em; 
@@ -203,42 +194,24 @@ img:hover {
     }
   
     .nav li {
-      display: block;   
-      padding: 15px 0 15px 0; 
+      display: block;  
+      padding: 10px 0 10px 0; 
     }
   
     .nav li:hover {
       display: block;    
-      background: #ffffff; 
-      padding: 15px 0 15px 0; 
+      background: yellow;
     }
   
     .nav ul li a {
+      color: black;
       text-decoration: none;  
       margin: 0px; 
-      color: #666;
     }
   
     .nav ul li a:hover {
-      color: #666; 
       text-decoration: none;
     }
-  
-    .nav a {
-      text-decoration: none; 
-      color: #666;
-    }
-  
-    .nav a:hover {
-      text-decoration: none; 
-      color: #666;
-    }  
-    
-    /* main > .nav > ul > a:before {
-      content:'\2630';
-      font-size: 24px;
-    }   */
-    
    
 main {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
