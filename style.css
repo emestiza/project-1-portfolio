@@ -25,12 +25,8 @@ main {
     grid-area: banner;
     background: url("https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg") center center no-repeat;
     background-size: cover;
+    height: 150px;
 }
-  
-.banner h1 {
-    color: rgb(138, 43, 226);
-    font-weight: bold;
-  }
   
 .header {
     grid-area: header;
@@ -97,20 +93,18 @@ main > .main1 > .project {
   }
   
 main > .main1 > .project:nth-child(even) {
-      background: #23a;
+      /* background: #23a; */
+      background: #fafafa;
   }
   
 main > .main1 > .project:nth-child(odd) {
-      background: #49b;
+      /* background: #49b; */
+      background: #fafafa;
   }
    
 img {
     max-width: 100%;
     height: auto;
-  }
-  
-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
   
 .sec2 {

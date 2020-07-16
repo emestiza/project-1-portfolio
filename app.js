@@ -18,7 +18,7 @@ fetch(url)
     })
 
 const app = (data) => {
-    console.log('app is running')
+    // console.log('app is running')
     console.log(data)
 
     const createProjectElement = (project) => {
