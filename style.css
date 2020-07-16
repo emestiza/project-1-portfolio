@@ -34,8 +34,8 @@ main {
   
 .header {
     grid-area: header;
-    background: rgb(0, 0, 0);
-    color: rgb(138, 43, 226);
+    background: #fafafa;
+    /* color: black; */
     text-transform: uppercase;
     font-weight: 600;
     font-size: 80px;
@@ -67,7 +67,8 @@ main {
   
 .sec1 {
     grid-area: sec1;
-    background-color: purple;
+    background: black;
+    color: #fafafa;
     text-align: center;
   }
   
@@ -105,37 +106,48 @@ img:hover {
   
 .sec2 {
     grid-area: sec2;
-    background-color: purple;
+    background: black;
+    color: #fafafa;
     text-align: center;
   }
   
 .main2 {
     grid-area: main2;
-    background-color: yellow;
+    background-color: #fafafa;
   }
   
 .sec3 {
     grid-area: sec3;
-    background-color: purple;
+    background: black;
+    color: #fafafa;
     text-align: center;
   }
   
 .main3 {
     grid-area: main3;
-    background-color: yellow;
+    background-color: #fafafa;
+    text-align: center;
   }
   
 .footer {
     grid-area: footer;
-    background: black;
-    color: rgb(138, 43, 226);
+    background: #fafafa;
+    /* color: #fafafa; */
     font-weight: bold;
     padding: 4px;
   }
   
   /* Responsive Design */
   
-  @media (max-width: 800px) {
+  @media (max-width: 760px) {
+
+    .responsive-menu{
+      display: none;
+     }
+      
+     .expand {
+      display: block !important; 
+     }
     
     .hamburger {
       background: none;
@@ -145,20 +157,6 @@ img:hover {
       color: #999;
       border: 0;
       font-size: 1.4em;
-      font-weight: bold;
-      cursor: pointer;
-      outline: none;
-      z-index: 10000000000000;
-    }
-  
-    .cross {
-      background: none;
-      top: 0px;
-      right: auto;
-      color: #999;
-      border: 0;
-      font-size: 3em;
-      line-height: 65px;
       font-weight: bold;
       cursor: pointer;
       outline: none;
@@ -215,10 +213,15 @@ img:hover {
       color: #666;
     }  
     
-    main > .nav > ul > a:before {
+    /* main > .nav > ul > a:before {
       content:'\2630';
       font-size: 24px;
-    }  
+    }   */
     
-  }
+   
+main {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+}
   

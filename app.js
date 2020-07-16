@@ -37,16 +37,16 @@ const app = (data) => {
 }
 
 // Hamburger
-$( document ).ready(function() {
+// $( document ).ready(function() {
 
 // $( ".cross" ).hide();
 // $( ".nav" ).hide();
-$( ".hamburger" ).click(function() {
-$( ".nav" ).slideToggle( "slow", function() {
-$( ".hamburger" ).hide();
-$( ".cross" ).show();
-});
-});
+// $( ".hamburger" ).click(function() {
+// $( ".nav" ).slideToggle( "slow", function() {
+// $( ".hamburger" ).hide();
+// $( ".cross" ).show();
+// });
+// });
 
 // $( ".cross" ).click(function() {
 // $( ".nav" ).slideToggle( "slow", function() {
@@ -55,4 +55,10 @@ $( ".cross" ).show();
 // });
 // });
 
-});
+// });
+
+jQuery(function($){
+    $( '.hamburger' ).click(function(){
+    $('.responsive-menu').toggleClass('expand')
+    })
+ })
