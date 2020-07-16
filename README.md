@@ -8,14 +8,14 @@
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
 
 ## Project Description
 
-The goal of this project is to build a portfolio site that highlights the skills and projects I'll be working on in GA. I will use HTML and CSS to style and format the site. I will use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
+The goal of this project is to build a portfolio site that highlights the skills and projects I'll be working on in GA. I will use HTML and CSS to style and format the site. I will use JavaScript to tackle interactions such as a JSON API and a responsive hamburger menu. 
 
 
 ## Google Sheet
@@ -57,7 +57,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP 
 
 - Add additional project links
-- Add social media icons/links
+- Add social media links
 
 
 ## Functional Components

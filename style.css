@@ -67,6 +67,10 @@ main {
 .nav a:hover {
     background: white;
   }
+
+  .hamburger{
+    display: none;
+  }
   
 .sec1 {
     grid-area: sec1;
@@ -159,10 +163,14 @@ img:hover {
      }
       
      .expand {
-      display: block !important; 
+      display: grid;
+      grid-template-columns: min-content;
+      grid-template-rows: auto;
+      justify-content: center;
      }
     
     .hamburger {
+      display: block;
       background: none;
       top: auto;
       right: auto;
