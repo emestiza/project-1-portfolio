@@ -144,13 +144,19 @@ img {
     text-align: center;
   }
   
-.footer {
+.footer a {
     grid-area: footer;
     background: #fafafa;
     color: black;
     font-weight: bold;
     border-top: 1px solid;
   }
+
+  /* .footer a {
+    grid-area: footer;
+    color: black;
+    width: 100%;
+  } */
   
   /* Responsive Design */
   @media (max-width: 760px) {
