@@ -1,7 +1,49 @@
+/* body {
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 5s; /* Firefox < 16 */
+      -ms-animation: fadein 5s; /* Internet Explorer */
+       -o-animation: fadein 5s; /* Opera < 12.1 */
+          animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+} */
+
+
+
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   }
   
 main {
@@ -30,12 +72,8 @@ main {
   
 .header {
     grid-area: header;
-    background: #fafafa;
-    color: black;
-    text-transform: uppercase;
     font-weight: 900;
     font-size: 60px;
-    /* border-bottom: 1px solid; */
   }
   
 .header header {
@@ -44,8 +82,6 @@ main {
   
 .nav {
     grid-area: nav;
-    background: #fafafa;
-    /* border-bottom: 1px solid; */
   }
     
 .nav ul li {
@@ -54,7 +90,6 @@ main {
       
 .nav a {
     display: inline-block;
-    color: black;
     font-weight: bold;
     text-decoration: none;
   }
@@ -62,7 +97,7 @@ main {
 .nav a:hover {
     background: #1a73e8;
     color: #fafafa;
-    padding: 0 10px 0 10px;
+    padding: 0 5% 0 5%;
   }
 
   .hamburger{
@@ -71,10 +106,7 @@ main {
   
 .sec1 {
     grid-area: sec1;
-    background: #fafafa;
-    color: black;
     text-align: center;
-    /* border-bottom: 1px solid; */
   }
   
 .main1 {
@@ -82,11 +114,8 @@ main {
   }
   
 main > .main1 {
-      background: #fafafa;
       display: flex;
       flex-wrap: wrap;
-      /* justify-items: center; */
-      /* align-items: center; */
   }
   
 main > .main1 > .project {
@@ -94,21 +123,18 @@ main > .main1 > .project {
       width: 33.33%;
   }
   
-main > .main1 > .project:nth-child(even) {
-      /* background: #23a; */
-      background: #fafafa;
+/* main > .main1 > .project:nth-child(even) {
+      background: #23a;
   }
   
 main > .main1 > .project:nth-child(odd) {
-      /* background: #49b; */
-      background: #fafafa;
-  }
-
+      background: #49b;
+  } */
 
 main > .main1 > .project:hover {
     background: #1a73e8;
     color: #fafafa;
-    padding: 0 10px 0 10px;
+    padding: 0 5% 0 5%;
 }
 
    
@@ -119,29 +145,21 @@ img {
   
 .sec2 {
     grid-area: sec2;
-    background: #fafafa;
-    color: black;
     text-align: center;
-    /* border-bottom: 1px solid; */
   }
   
 .main2 {
     grid-area: main2;
-    background-color: #fafafa;
     text-indent: 5%;
   }
   
 .sec3 {
     grid-area: sec3;
-    background: #fafafa;
-    color: black;
     text-align: center;
-    /* border-bottom: 1px solid; */
   }
   
 .main3 {
     grid-area: main3;
-    background-color: #fafafa;
     text-align: center;
   }
   
@@ -158,16 +176,12 @@ footer {
 
   .footer {
     grid-area: footer;
-    background: #fafafa;
-    color: black;
-    /* font-weight: bold; */
-    /* border-top: 1px solid; */
   }
 
-  .footer a {
+  /* .footer a {
     background: #fafafa;
     color: black;
-  }
+  } */
 
   .linkedin {
     grid-area: linkedin;
@@ -197,7 +211,7 @@ footer {
     .hamburger {
       display: block;
       background: none;
-      color: black;
+      /* color: black; */
       top: auto;
       right: auto;
       line-height: 45px;
@@ -210,7 +224,6 @@ footer {
   
     .nav {
       grid-area: nav;
-      background: #fafafa;
       z-index: 1000000; 
       font-weight: bold; 
       width: 100%; 		
@@ -227,7 +240,7 @@ footer {
   
     .nav li {
       display: block;  
-      padding: 10px 0 10px 0;
+      padding: 10% 0 10% 0;
     }
   
     .nav li:hover {
@@ -237,7 +250,6 @@ footer {
     }
   
     .nav ul li a {
-      color: black;
       text-decoration: none;  
       margin: 0px; 
     }
