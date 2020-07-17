@@ -9,7 +9,7 @@
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
-|Day 5| Final Touches | Incomplete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -86,9 +86,9 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Other Sections| M | 5hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total |  | 6hrs| -hrs | -hrs |
+| Other Sections| M | 2hr | -hr | -hr|
+| Social Media Icons | L | 2hr | -hr | -hr|
+| Total |  | 4hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
