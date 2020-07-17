@@ -1,7 +1,7 @@
 body {
-    font-family: "Times New Roman", Times, serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
   
 main {
@@ -33,7 +33,7 @@ main {
     background: #fafafa;
     color: black;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 60px;
     /* border-bottom: 1px solid; */
   }
@@ -74,7 +74,7 @@ main {
     background: #fafafa;
     color: black;
     text-align: center;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
   }
   
 .main1 {
@@ -122,12 +122,13 @@ img {
     background: #fafafa;
     color: black;
     text-align: center;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
   }
   
 .main2 {
     grid-area: main2;
     background-color: #fafafa;
+    text-indent: 5%;
   }
   
 .sec3 {
@@ -135,7 +136,7 @@ img {
     background: #fafafa;
     color: black;
     text-align: center;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
   }
   
 .main3 {
@@ -159,8 +160,8 @@ footer {
     grid-area: footer;
     background: #fafafa;
     color: black;
-    /* font-weight: bold;
-    border-top: 1px solid; */
+    /* font-weight: bold; */
+    /* border-top: 1px solid; */
   }
 
   .footer a {
