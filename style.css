@@ -1,10 +1,9 @@
-/* body {
-
-  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 5s; /* Firefox < 16 */
-      -ms-animation: fadein 5s; /* Internet Explorer */
-       -o-animation: fadein 5s; /* Opera < 12.1 */
-          animation: fadein 5s;
+main {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -34,94 +33,94 @@
 @-o-keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-} */
-
-
+}
 
 body {
   background: #fafafa;
   color: black;
   font-family: 'Noto Sans', sans-serif;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-  }
-  
-main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: 
-      "banner banner banner"
-      "header header header"
-      "nav nav nav"
-      "sec1 sec1 sec1"
-      "main1 main1 main1"
-      "sec2 sec2 sec2"
-      "main2 main2 main2"
-      "sec3 sec3 sec3"
-      "main3 main3 main3"
-      "footer footer footer";
 }
   
+main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "banner banner banner"
+    "header header header"
+    "nav nav nav"
+    "sec1 sec1 sec1"
+    "main1 main1 main1"
+    "sec2 sec2 sec2"
+    "main2 main2 main2"
+    "sec3 sec3 sec3"
+    "main3 main3 main3"
+    "footer footer footer";
+  }
+  
 .banner {
-    grid-area: banner;
-    background: url("https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg") center center no-repeat;
-    background-size: cover;
-    height: 150px;
+  grid-area: banner;
+  background: url("https://al.nd.edu/assets/380450/1000x562/bacs_code.jpg") center center no-repeat;
+  background-size: cover;
+  height: 150px;
 }
   
 .header {
-    grid-area: header;
-    font-weight: 900;
-    font-size: 60px;
-  }
-  
-.header header {
-    overflow: auto;
-  }
-  
+  grid-area: header;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
 .nav {
-    grid-area: nav;
-  }
+  grid-area: nav;
+}
     
 .nav ul li {
-    display: inline;
-  }
+  display: inline;
+}
       
 .nav a {
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none;
-  }
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
       
 .nav a:hover {
-    background: #1a73e8;
-    color: #fafafa;
-    padding: 0 5% 0 5%;
-  }
+  background: #1a73e8;
+  color: #fafafa;
+  padding: 0 5% 0 5%;
+}
 
-  .hamburger{
-    display: none;
-  }
+.hamburger{
+  display: none;
+}
   
 .sec1 {
-    grid-area: sec1;
-    text-align: center;
-  }
+  grid-area: sec1;
+  text-align: center;
+}
   
 .main1 {
-    grid-area: main1;
-  }
+  grid-area: main1;
+}
   
 main > .main1 {
-      display: flex;
-      flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
   
 main > .main1 > .project {
-      flex-grow: 1;
-      width: 33.33%;
-  }
+  flex-grow: 1;
+  width: 33.33%;
+}
   
 /* main > .main1 > .project:nth-child(even) {
       background: #23a;
@@ -132,36 +131,35 @@ main > .main1 > .project:nth-child(odd) {
   } */
 
 main > .main1 > .project:hover {
-    background: #1a73e8;
-    color: #fafafa;
-    padding: 0 5% 0 5%;
+  background: #1a73e8;
+  color: #fafafa;
+  padding: 0 5% 0 5%;
 }
-
-   
+ 
 img {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
+  height: auto;
+}
   
 .sec2 {
-    grid-area: sec2;
-    text-align: center;
-  }
+  grid-area: sec2;
+  text-align: center;
+}
   
 .main2 {
-    grid-area: main2;
-    text-indent: 5%;
-  }
+  grid-area: main2;
+  text-indent: 5%;
+}
   
 .sec3 {
-    grid-area: sec3;
-    text-align: center;
-  }
+  grid-area: sec3;
+  text-align: center;
+}
   
 .main3 {
-    grid-area: main3;
-    text-align: center;
-  }
+  grid-area: main3;
+  text-align: center;
+}
   
 footer {
   display: grid;
@@ -172,95 +170,86 @@ footer {
   grid-template-areas: 
   "linkedin github"
   "name name"; 
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-
-  /* .footer a {
-    background: #fafafa;
-    color: black;
-  } */
-
-  .linkedin {
-    grid-area: linkedin;
-  }
-  
-  .github {
-    grid-area: github;
-  }
-
-  .name {
-    grid-area: name;
-  }
-
-  /* Responsive Design */
-  @media (max-width: 760px) {
-
-    .responsive-menu{
-      display: none;
-     }
-      
-     .expand {
-      display: grid;
-      grid-template-columns: min-content;
-      justify-content: center;
-     }
-    
-    .hamburger {
-      display: block;
-      background: none;
-      /* color: black; */
-      top: auto;
-      right: auto;
-      line-height: 45px;
-      border: 0;
-      font-size: 1.5em;
-      font-weight: bold;
-      cursor: pointer;
-      outline: none;
-    }
-  
-    .nav {
-      grid-area: nav;
-      z-index: 1000000; 
-      font-weight: bold; 
-      width: 100%; 		
-      text-align: center;
-      /* font-size: 12px; */
-    }
-  
-    .nav ul {
-      margin: 0; 
-      padding: 0; 
-      list-style-type: none; 
-      list-style-image: none;
-    }
-  
-    .nav li {
-      display: block;  
-      padding: 10% 0 10% 0;
-    }
-  
-    .nav li:hover {
-      display: block;    
-      background: #1a73e8;
-      color: #fafafa;
-    }
-  
-    .nav ul li a {
-      text-decoration: none;  
-      margin: 0px; 
-    }
-  
-    .nav ul li a:hover {
-      text-decoration: none;
-    }
-   
-main {
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
+.footer {
+  grid-area: footer;
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+  
+.github {
+  grid-area: github;
+}
+
+.name {
+  grid-area: name;
+}
+
+/* Responsive Design */
+@media (max-width: 760px) {
+  .responsive-menu{
+    display: none;
+  }
+      
+  .expand {
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: center;     
+  }
+    
+  .hamburger {
+    display: block;
+    background: none;
+    top: auto;
+    right: auto;
+    line-height: 45px;
+    border: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .nav {
+    grid-area: nav;
+    z-index: 1000000; 
+    font-weight: bold; 
+    width: 100%; 		
+    text-align: center;
+  }
+  
+  .nav ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+  }
+  
+  .nav li {
+    display: block;  
+    padding: 10% 0 10% 0;
+  }
+  
+  .nav li:hover {
+    display: block;    
+    background: #1a73e8;
+    color: #fafafa;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;  
+    margin: 0px; 
+  }
+  
+  .nav ul li a:hover {
+    text-decoration: none;
+  }
+   
+  main {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
 }
   
