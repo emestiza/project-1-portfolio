@@ -67,28 +67,28 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Sections with Grid| H | 2hrs | -2hrs | -2hrs|
-| Sections with Flex-box| H | 2hrs | -2hrs | -2hrs|
-| Desktop Navigation | H | 1hr | -1hr | -1hr|
-| Tablet Navigation | H | 1hr | -1hr | -1hr|
-| Mobile Navigation | H | 1hr | -1hr | -1hr|
-| Desktop Responsive Design | H | 1hr | -1hr | -1hr|
-| Tablet Responsive Design | H | 1hr | -1hr | -1hr|
-| Mobile Responsive Design | H | 1hr | -1hr | -1hr|
-| Hamburger Icon | H | 2hrs | -2hrs | -4hrs|
-| Data API | H | 2hrs| -2hrs | -2hrs |
-| Adding Google Form | H | 2hrs| -2hrs | -2hrs |
-| Debugging & Testing | M | 8hrs| -8hrs | -10hrs |
-| Final Touches | M | 8hrs| -8hrs | -10hrs |
-| Deployment | M | 8hrs| -8hrs | -2hrs |
-| Total |  | 40hrs| -40hrs | -40hrs |
+| Sections with Grid| H | 2hrs | 2hrs | 2hrs|
+| Sections with Flex-box| H | 2hrs | 2hrs | 2hrs|
+| Desktop Navigation | H | 1hr | 1hr | 1hr|
+| Tablet Navigation | H | 1hr | 1hr | 1hr|
+| Mobile Navigation | H | 1hr | 1hr | 1hr|
+| Desktop Responsive Design | H | 1hr | 1hr | 1hr|
+| Tablet Responsive Design | H | 1hr | 1hr | 1hr|
+| Mobile Responsive Design | H | 1hr | 1hr | 1hr|
+| Hamburger Icon | H | 2hrs | 2hrs | 4hrs|
+| Data API | H | 2hrs| 2hrs | 2hrs |
+| Adding Google Form | H | 2hrs| 2hrs | 2hrs |
+| Debugging & Testing | M | 8hrs| 8hrs | 10hrs |
+| Final Touches | M | 8hrs| 8hrs | 10hrs |
+| Deployment | M | 8hrs| 8hrs | 2hrs |
+| Total |  | 40hrs| 40hrs | 40hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Other Sections| M | 2hr | -2hrs | -1hr|
-| Social Media Icons | L | 2hr | -2hrs | -2hrs|
-| Total |  | 4hrs| -4hrs | -3hrs |
+| Other Sections| M | 2hr | 2hrs | 1hr|
+| Social Media Icons | L | 2hr | 2hrs | 2hrs|
+| Total |  | 4hrs| 4hrs | 3hrs |
 
 ## Additional Libraries
  The jQuery JavaScript library and JSON were used for the data API in the project. The jQuery JavaScript library was also used for the hamburger icon toggle. 
