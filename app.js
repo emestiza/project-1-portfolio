@@ -1,4 +1,3 @@
-
 // JSON API
 const url = 'https://spreadsheets.google.com/feeds/list/1A-BPvETOegMvze6amsGrhtmqROJjC3dzMqY2djCe__Q/od6/public/values?alt=json'
 
@@ -18,7 +17,6 @@ fetch(url)
     })
 
 const app = (data) => {
-    // console.log('app is running')
     console.log(data)
 
     const createProjectElement = (project) => {
@@ -36,7 +34,7 @@ const app = (data) => {
     })
 }
 
-// Responsive Hamburger
+// Hamburger Toggle
 jQuery(function($){
     $( '.hamburger' ).click(function(){
     $('.responsive-menu').toggleClass('expand')

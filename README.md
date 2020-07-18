@@ -67,49 +67,75 @@ Based on the initial logic defined in the previous sections, the logic is broken
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Sections with Grid| H | 2hrs | -hr | -hr|
-| Sections with Flex-box| H | 2hrs | -hr | -hr|
-| Desktop Navigation | H | 1hr | -hr | -hr|
-| Tablet Navigation | H | 1hr | -hr | -hr|
-| Mobile Navigation | H | 1hr | -hr | -hr|
-| Desktop Responsive Design | H | 1hr | -hr | -hr|
-| Tablet Responsive Design | H | 1hr | -hr | -hr|
-| Mobile Responsive Design | H | 1hr | -hr | -hr|
-| Hamburger Icon | H | 2hrs | -hr | -hr|
-| Data API | H | 2hrs| -hr | -hr |
-| Adding Google Form | H | 2hrs| -hr | -hr |
-| Debugging & Testing | M | 8hrs| -hr | -hr |
-| Final Touches | M | 8hrs| -hr | -hr |
-| Deployment | M | 8hrs| -hr | -hr |
-| Total |  | 40hrs| -hrs | -hrs |
+| Sections with Grid| H | 2hrs | -2hrs | -2hrs|
+| Sections with Flex-box| H | 2hrs | -2hrs | -2hrs|
+| Desktop Navigation | H | 1hr | -1hr | -1hr|
+| Tablet Navigation | H | 1hr | -1hr | -1hr|
+| Mobile Navigation | H | 1hr | -1hr | -1hr|
+| Desktop Responsive Design | H | 1hr | -1hr | -1hr|
+| Tablet Responsive Design | H | 1hr | -1hr | -1hr|
+| Mobile Responsive Design | H | 1hr | -1hr | -1hr|
+| Hamburger Icon | H | 2hrs | -2hrs | -4hrs|
+| Data API | H | 2hrs| -2hrs | -2hrs |
+| Adding Google Form | H | 2hrs| -2hrs | -2hrs |
+| Debugging & Testing | M | 8hrs| -8hrs | -10hrs |
+| Final Touches | M | 8hrs| -8hrs | -10hrs |
+| Deployment | M | 8hrs| -8hrs | -2hrs |
+| Total |  | 40hrs| -40hrs | -40hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Other Sections| M | 2hr | -hr | -hr|
-| Social Media Icons | L | 2hr | -hr | -hr|
-| Total |  | 4hrs| -hrs | -hrs |
+| Other Sections| M | 2hr | -2hrs | -1hr|
+| Social Media Icons | L | 2hr | -2hrs | -2hrs|
+| Total |  | 4hrs| -4hrs | -3hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ The jQuery JavaScript library and JSON were used for the data API in the project. The jQuery JavaScript library was also used for the hamburger icon toggle. 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+The code snippet below is used for the API functionality. The code shows how data in JSON format is extracted externally and added to this site. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+// JSON API
+const url = 'https://spreadsheets.google.com/feeds/list/1A-BPvETOegMvze6amsGrhtmqROJjC3dzMqY2djCe__Q/od6/public/values?alt=json'
+
+fetch(url)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data.feed.entry)
+        const projects = data.feed.entry.map(entry => {
+            return {
+                title: entry.gsx$title.$t,
+                image: entry.gsx$image.$t,
+                description: entry.gsx$description.$t,
+                url: entry.gsx$url.$t
+             }
+        })
+        app(projects)
+    })
+
+const app = (data) => {
+    console.log(data)
+
+    const createProjectElement = (project) => {
+        const $div = $('<div>').addClass("project")
+        $div.append($('<h3>').text(project.title))
+        $div.append($('<img>').attr('src', project.image))
+        $div.append($('<p>').addClass("description").text(project.description))
+        $div.append($('<a>').attr('href', project.url).text("Project Link"))
+        return $div
+    }
+    
+    data.forEach(project => {
+        const $projectDiv = createProjectElement(project)
+        $('.main1').append($projectDiv)  
+    })
 }
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+**ERROR**: Hamburger icon did not toggle                                
+**RESOLUTION**: Used jQuery function and toggle class
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
